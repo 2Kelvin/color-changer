@@ -1,18 +1,11 @@
+import DisplayColor from "./Components/DisplayColor";
+import InputText from "./Components/InputText";
 
 function App() {
   return (
     <div className="app">
-      <div className="square">
-        <p>No color</p>
-      </div>
-      <label htmlFor="colorInput">
-        <input
-          type="text"
-          name="colorInput"
-          id="colorInput"
-          placeholder="Type a color here"
-        />
-      </label>
+      <DisplayColor />
+      <InputText/>
     </div>
   );
 }

@@ -40,5 +40,10 @@ input{
   border: 2px solid gray;
   padding: 10px;
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+::-moz-placeholder {
+  opacity: 20%;
+  font-family: 'Raleway', sans-serif;
 }
