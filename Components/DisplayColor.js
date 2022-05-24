@@ -1,7 +1,7 @@
-const DisplayColor = () => {
+const DisplayColor = ({color}) => {
     return (
         <div className="square">
-            <p>No color</p>
+            <p>{color}</p>
         </div>
     );
 }
