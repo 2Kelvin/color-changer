@@ -1,6 +1,7 @@
-const DisplayColor = ({color}) => {
+const DisplayColor = ({ color }) => {
+
     return (
-        <div className="square">
+        <div className="square" style={{backgroundColor:color}}>
             <p>{color}</p>
         </div>
     );

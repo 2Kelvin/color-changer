@@ -1,7 +1,6 @@
 
 
-const InputText = ({color, setColor}) => {
-    
+const InputText = ({ color, setColor }) => {
 
     return (
         <label htmlFor="colorInput">
@@ -10,7 +9,6 @@ const InputText = ({color, setColor}) => {
           name="colorInput"
           id="colorInput"
           placeholder="Type a color name"
-          required
           autoFocus
           value={color}
           onChange={(e) => setColor(e.target.value)}
